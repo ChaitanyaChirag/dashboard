@@ -1,38 +1,64 @@
-.App {
+
+  
+  .Login {
+    padding: 30px ;
+    width: 30%;
+    margin-top: 3;
+    margin-left: 53rem ;
+    
+  }
+  .image{
+    background-image: url(./img.png) ;
+    background-repeat: no-repeat;
+    background-position:5rem ;
+    background-size: 45rem 25rem;
+  }
+p{
+  color: gray;
+  margin-left: 58rem;
+  margin-top: 3rem;
+}
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+  .login{
+    margin-top: 5rem;
+    margin-left: 65rem;
+  }
+
+.button{
+  background-color: black;
+  color:grey;
+  margin: 2rem;
+  width: 60%;
+  height: 2.5rem;
   text-align: center;
+  margin-left: 5.5rem;
+  border-radius: 20px;
+  cursor: pointer;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.email{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-size: 2rem;
+  
+  margin: 0.5rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.password{
+  display: flex;
+  font-size: 2rem;
+  
+  margin: 0.5rem;
+  justify-content: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input{
+  height: 2rem;
+  width: 100%;
+  margin: 0.5rem;
+  border-radius: 10px;
+  
+}
+.welcome{
+  margin-left: 63rem;
 }
